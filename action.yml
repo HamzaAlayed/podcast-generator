@@ -1,0 +1,19 @@
+name: "Podcast Generator"
+author: "Hamza Alayed"
+description: "Generate a podcast episode from a text file."
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "git-branch"
+  color: "blue"
+inputs:
+  email:
+    description: "The commiter email."
+    required: true
+    default: ${{ github.actor }}@localhost
+  name:
+    description: "The commiter name."
+    required: true
+    default: ${{ github.actor }}
+  
