@@ -1,4 +1,4 @@
-name: "Podcast Generator"
+name: "Podcast Generator Developer"
 author: "Hamza Alayed"
 description: "Generate a podcast episode from a text file."
 runs:
